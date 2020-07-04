@@ -15,6 +15,7 @@
     mounted() {
       this.id = this.$route.params.id
       this.name = this.$route.query.name
+      // console.log(this.$route)
     }
   }
 </script>
