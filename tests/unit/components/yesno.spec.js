@@ -2,6 +2,7 @@ import YesNo from '@/components/YesNo'
 import { mount } from '@vue/test-utils'
 // import sinon from 'sinon'
 
+// 鼠标点击事件
 describe('click event', () => {
   // eslint-disable-next-line
   it('Click on yes button calls our method with argument "yes"', async () => {
