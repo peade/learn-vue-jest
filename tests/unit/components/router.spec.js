@@ -1,4 +1,4 @@
-// 此处测试代码不正确，没有实现测试效果
+// simple mock routes
 import { shallowMount } from '@vue/test-utils'
 import About from '@/views/About'
 
@@ -15,7 +15,6 @@ describe('vue-router jest', () => {
         $route
       }
     })
-    await wrapper.vm.$nextTick()
-    expect(wrapper.vm.$route.fullPath).not.toBe('/')
+    expect(wrapper.vm.$route.path).toBe('/about')
   })
 })
